@@ -1,3 +1,5 @@
+```yaml
+name: Build mod jar
 on:
   push:
   workflow_dispatch:
@@ -18,4 +20,3 @@ jobs:
         with:
           name: hollowfaith-jar
           path: build/libs/*.jar
-```
